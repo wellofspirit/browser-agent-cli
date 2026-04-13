@@ -7,7 +7,7 @@
   "author": "Daniel Liu",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anthropics/browser-agent-cli"
+    "url": "https://github.com/wellofspirit/browser-agent-cli"
   },
   "bin": {
     "browser": "dist/cli.js",
