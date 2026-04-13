@@ -1,0 +1,28 @@
+{
+  "name": "browser-agent-cli",
+  "version": "0.1.0",
+  "description": "Persistent browser control CLI for AI agents",
+  "type": "module",
+  "license": "MIT",
+  "author": "Daniel Liu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/browser-agent-cli"
+  },
+  "bin": {
+    "browser": "dist/cli.js",
+    "browser-server": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "server": "node dist/server.js",
+    "cli": "node dist/cli.js"
+  },
+  "dependencies": {
+    "playwright": "^1.52.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
